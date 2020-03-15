@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "mailing-service"
+		},
+		{
+			"path": "events-service"
+		},
+		{
+			"name": "contract-testing-demo",
+			"path": "."
+		}
+	],
+	"settings": {
+
+	},
+	"launch": {
+		"configurations": [],
+		"compounds": [
+        {
+					"name": "Launch All Services",
+					"configurations": ["Launch Mailing Service API", "Launch Events Service API"]
+        }
+    ]
+	}
+}
